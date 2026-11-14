@@ -1,0 +1,16 @@
+# .venv/
+# venv/
+# __pycache__/
+# *.pyc
+# .pytest_cache/
+# .env
+# .vscode/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.vscode/
+.idea/
+python312.exe

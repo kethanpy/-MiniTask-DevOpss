@@ -1,0 +1,11 @@
+# services:
+#   api:
+#     build: .
+#     # TODO: Publish the container's port 8000 to host port 8000.
+#     # TODO: Add a sensible restart policy (optional).
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
